@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+html{
+  font-size:62.5%;
+}
+.image:hover{
+  opacity: 0.5;
+}
+.logo:hover{
+  opacity: 0.5;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+body{
+  color: #888;
+  font-size:1.2rem;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+    
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(255, 255, 255);
+  height:60px;
+  justify-content: flex-end;
+  padding-right:30px;
+}
+.header-wrapper {
+  display: flex;
+}
+.header-list li{
+  list-style:none;
+  padding:25px 15px;
+  color:black;
+}
+.header-list ul{
+  display: flex;
+}
+.logo{
+  width:92%;
+  height:103%;
+  margin-top:50px;
+  margin-left:20px;
+  margin-bottom:50px;
+}
+    
+.footer-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  padding:30px;
+}
+.footer{
+  background-color:rgb(255, 255, 255);
+  height:100%;
+  padding:10px 0px;
+}
+.footer-list li{
+  list-style:none;
+}
+    
+.main{
+  width:80%;
+  height:100%;
+  margin:0px 0 0 auto;
+  padding-right:40px;
+  color:black;
+}
+.left{
+  width:16%;
+  height:100%;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  display:block;
+}
+.accordion1,.menulist li{
+  list-style:none;
+  padding-left:80px;
+  color:black;
+}
+.shop{
+  display:flex;
+  justify-content:center;
+}
+.shop-item{
+  position: relative;
+}
+.image,.image2{
+  position: relative;
+  text-align: center;
+  padding: 30px 15px;
+  border: 1px solid #efefef;
+  width:70%;
+  margin:20px 20px 10px 20px;
+}
+.image2{
+  opacity: 0.5;
+}
+
+h1{
+  padding-left:20px;
+}
+p{
+  padding-left:35%;
+}
+.out{
+    background: #cc0000;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    position: absolute;
+    top:40%;
+    left:25%;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+.accordion1 {
+  text-align: left;
+}
+.accordion1 .inner {
+  display: none;
+}
+.accordion1 p{
+  cursor: pointer; padding: 10px;
+  color:black;
+}
+.accordion1 .inner li{
+  padding: 5px 0;
+  color: #888;
+  list-style:none;
+  position:relative;
+  left:10px;
+}
